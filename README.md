@@ -28,5 +28,5 @@ Resgister //like last time right?? same as last time
 Gallery// got it
 Events //you mean workshops? yes- workshops.
 Contact us //cool
-
+Abhijit this time for images dont give link to fetch images.....directly save it in the cpanel...so loading time will be faster...Am i right on this?
 
