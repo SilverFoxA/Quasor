@@ -37,3 +37,4 @@ We extend our support and technical expertise to the young minds for the sake of
 
 
 Abhijit this time for images dont give link to fetch images.....directly save it in the cpanel...so loading time will be faster...Am i right on this? - -- Both are same
+Abhijit what i feel  is remove "Ask Us " section now...that will complicate things and it is not required currently
