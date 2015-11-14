@@ -18,15 +18,22 @@ And as the moto speaks itself "Think> Innovate> Endeavourr", students learn, thi
 In the rocket modelling workshop organised by us.
 
 Qno.5
-#Content of about us- what you would like to be put up here? Quasor Rocketry LLP is an education, training and technology based company which has a sole purpose of integrating real world ideas with the latest in technology. By developing an active interest towards space-science and technology, we aim to lay a strong foundation for the development of Aerospace industry in our country.
+#Content of about us- what you would like to be put up here? 
+<ul><li>Quasor Rocketry LLP is an education, training and technology based company which has a sole purpose of integrating real world ideas with the latest in technology. By developing an active interest towards space-science and technology, we aim to lay a strong foundation for the development of Aerospace industry in our country.
 Quasor Rocketry LLP is first of its kind in the country that aims to organise Model Rocketry across various parts of India. We are a constant facilitator in the scientific and technical education of students of all levels by providing them classroom education, seminars, workshops, other hands on resources through wide variety of hardware, software and web based learning.
-We extend our support and technical expertise to the young minds for the sake of developing science in the nation.
-About us
-About Board member/team #team i know exactly what to do -- great
-Ask us //Isn't it the same as sending a mail? Ask us was that Q & A session, where we clear the doubts of other people regarding space
-Resgister //like last time right?? same as last time
-Gallery// got it
-Events //you mean workshops? yes- workshops.
-Contact us //cool
-Abhijit this time for images dont give link to fetch images.....directly save it in the cpanel...so loading time will be faster...Am i right on this?
+We extend our support and technical expertise to the young minds for the sake of developing science in the nation.</li>
+</ul>
+#Pages
+<ul>
+<li>need HOME</li>
+<li>About us</li>
+<li>About Board member/team #team i know exactly what to do -- great</li>
+<li>Ask us //Isn't it the same as sending a mail? Ask us was that Q & A session, where we clear the doubts of other people regarding space</li>
+<li>Resgister //like last time right?? same as last time</li>
+<li>Gallery// got it</li>
+<li>Events //you mean workshops? yes- workshops.</li>
+<li>Contact us //cool</li>
+</ul>
 
+
+Abhijit this time for images dont give link to fetch images.....directly save it in the cpanel...so loading time will be faster...Am i right on this? - -- Both are same
