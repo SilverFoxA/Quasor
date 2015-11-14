@@ -31,3 +31,4 @@ Contact us //cool
 Abhijit this time for images dont give link to fetch images.....directly save it in the cpanel...so loading time will be faster...Am i right on this?
 
 Abhijit please add home and include these details---Company logo with a Name(+tagline)...."Welcome to quasor rocketry"...."A leading company in organising Rocket modelling workshops across various parts of India"..........and include the background of the previous website.
+Abhijit add one page for TESTIMONIALS also
