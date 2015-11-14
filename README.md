@@ -18,13 +18,13 @@ And as the moto speaks itself "Think> Innovate> Endeavourr", students learn, thi
 In the rocket modelling workshop organised by us.
 
 Qno.5
-
+#Content of about us- what you would like to be put up here?
 About us
-About Board member/team
-Ask us
-Resgister
-Gallery
-Events
-Contact us
+About Board member/team #team i know exactly what to do 
+Ask us //Isn't it the same as sending a mail?
+Resgister //like last time right??
+Gallery// got it
+Events //you mean workshops?
+Contact us //cool
 
 
