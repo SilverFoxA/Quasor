@@ -23,7 +23,7 @@ $(window).load(function(){
     e.preventDefault();
   });
 
-  $("#data a").click(function(e) {
+  $("#data ab").click(function(e) {
     var ref = $(this).attr("class");
     solarsys.removeClass().addClass(ref);
     $(this).parent().find('a').removeClass('active');
