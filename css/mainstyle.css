@@ -68,10 +68,13 @@ a.toggle:hover .bar {
   background: #2196F3;
 }
 .contain section.home {
-  background: #2196F3;
+  background-color: #2C3E50;
+  background-image: url('/img/home.png');
+ background-size: cover;
 }
 .contain section.about {
-  background: #FFC107;
+    background-image: url("http://mars.nasa.gov/images/PIA14293-amended1.jpg");
+
 }
 .contain section.ask {
   background: #FFC107;
@@ -266,7 +269,7 @@ h1.main,p.demos {
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
-	font-size: 90px;
+	font-size: 50px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
@@ -375,7 +378,7 @@ h1.main,p.demos {
 	transform: scale(1) rotate(0deg);
 }
 .sp-circle-link:hover {
-	background: #85373b;
+	background: #00007f;
 	color: #fff;
 }
 /**/

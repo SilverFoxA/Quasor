@@ -17,7 +17,8 @@
     width: 100px;
     height: 100px;
     position: relative;
-    margin-left: 95%;
+    margin-left: 60%;
+
     margin-top: 10%;
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
@@ -56,6 +57,37 @@
 .rocket {
  -webkit-animation: rocket 1s alternate infinite linear;
 }
+
+
+    #gallery{
+  position:relative;
+  margin: 0 auto;
+  overflow:hidden;
+  width:500px;
+  height:330px; /* +30 = space for buttons */
+  text-align:center; /* to center the buttons */
+}
+#slider{
+  position:absolute;
+  left:0;
+  height:300px;
+  text-align:left; /* to reset text inside slides */
+}
+#slider > div {
+  position:relative;
+  float:left;
+  width:500px;
+  height:300px;
+}
+#prev, #next{
+  display:inline-block;
+  position:relative;
+  top:300px;
+  cursor:pointer;
+  padding:5px;
+}
+    br{
+    margin: auto;}
 </style>
 
   </head>
@@ -68,6 +100,7 @@
 
     <div class="sp-container">
         <div class="sp-content">
+
 <!--            <div class="sp-globe"></div>-->
             	<h2 class="frame-1">It's destroying the planet</h2>
 
@@ -77,7 +110,8 @@
 
             	<h2 class="frame-4">Now!</h2>
 
-            	<h2 class="frame-5"><span>Save the planet.</span> <span>Love life.</span> <span>Go vegan.</span></h2>
+<!--            	<h2 class="frame-5"><span>Save the planet.</span> <span>Love life.</span> <span>Go vegan.</span></h2>-->
+            <h2 class="frame-5"><span>Welcome To Quasor Rocketry</span></h2>
 	               <a class="sp-circle-link" href="#">Register</a>
 <!--        </div>-->
     </div>
@@ -94,14 +128,26 @@
 
   </section>
   <section class='about'>
-    <h1>aasas</h1>
-      <div id="example">
-       <img src="img/rocket.png"  class='rocket'/>
+<!--    -->
+<!--      <img src="img/mars.jpg" style="width:100%;height:100%;z-index:-1;"/>-->
+       <div id="example" style="position: relative; left: 0; top: 0;">
 
+       <img src="img/rocket.png"  style="position: absolute; z-index:2;align-content:right;" class='rocket'/>
+            <font size="2" style="z-index:-2;position: absolute;">Quasor Rocketry LLP is an education, training and technology based company which has a sole purpose of integrating real world ideas with the latest in technology. By developing an active interest towards space-science and technology, we aim to lay a strong foundation for the development of Aerospace industry in our country. Quasor Rocketry LLP is first of its kind in the country that aims to organise Model Rocketry across various parts of India. We are a constant facilitator in the scientific and technical education of students of all levels by providing them classroom education, seminars, workshops, other hands on resources through wide variety of hardware, software and web based learning. We extend our support and technical expertise to the young minds for the sake of developing science in the nation.</font>
       </div>
+<!--      </div>-->
   </section>
   <section class='team'>
-    <h1 class='title'>Team</h1>
+  <div id="gallery">
+  <div id="slider">
+     <div style="background:#cf5">1</div>
+     <div style="background:#ada">2</div>
+     <div style="background:#b0b">3</div>
+  </div>
+  <span id="prev">&#9664;</span>
+  <span id="next">&#9654;</span>
+</div>
+
   </section>
 <!--
     <section class='ask'>
@@ -134,4 +180,44 @@
 
 
   </body>
+      <script>var $gal = $('#gallery'),
+    $sli = $('#slider'),
+    $box = $('div',$sli),
+    W    = $gal.width(), // 500
+    N    = $box.length,  // 3
+    C    = 0;            // a counter
+
+$sli.width(W*N);
+
+
+$('#prev, #next').click(function(){
+  C = (this.id=='next' ? ++C : --C) <0 ? N-1 : C%N;
+  $sli.stop().animate({left: -C*W },800);
+});
+
+
+// TO EXPLAIN THE MADNESS ABOVE
+/*
+$('#prev, #next').click(function(){
+
+  // We need to animate the #slider
+  // some -left position.
+  // We have a "C" counter set to the '0' (first slide),
+  // on click NEXT, PREV, we incr,decrease the C counter
+  // and simply move #slider by C * the slide width!
+
+  // DETECT PREV NEXT AND +,- OUR COUNTER
+  if(this.id=='next'){ C++; }else{ C--; }
+
+  // Prevent C GO TO -1 (prev button)
+  if(C<0){ C = N-1; }
+  // Prevent C exceed N. of slides (next button)
+  else{ C = C%N; }  // (% = Modulo operator)
+
+
+  $sli.stop().animate({left: -C*W },800);
+
+});
+
+*/</script>
 </html>
