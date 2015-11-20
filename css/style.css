@@ -140,13 +140,13 @@ a.toggle:hover .bar {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-.contain.active h1 {
-  -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-          transform: scale(0.5);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
+/*.contain.active h1 {*/
+/*  -webkit-transform: scale(0.5);*/
+/*      -ms-transform: scale(0.5);*/
+/*          transform: scale(0.5);*/
+/*  -webkit-transform-style: preserve-3d;*/
+/*          transform-style: preserve-3d;*/
+/*}*/
 
 .contain section:nth-child(1) {
   z-index: 100;
