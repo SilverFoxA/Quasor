@@ -11,11 +11,8 @@
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Raleway:600,400,200,300'>
 
   </head>
-
-  <body>
-
-    <div class='contain'>
-  <section class='home active' style="body {
+<style>
+  body {
   margin: 0;
   background: #000; 
 }
@@ -88,7 +85,12 @@ a:hover{
 @media screen and (max-device-width: 800px) {
   html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
-}">
+}
+</style>
+  <body>
+
+    <div class='contain'>
+  <section class='home active'>
     <video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
@@ -102,6 +104,36 @@ a:hover{
 <p>Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend, erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin ultrices id sed nisl.</p>
 <button>Pause</button>
 </div>
+<script>
+  // background video
+
+var vid = document.getElementById("bgvid");
+var pauseButton = document.querySelector("#polina button");
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function()
+{
+// only functional if "loop" is removed 
+vid.pause();
+// to capture IE10
+vidFade();
+}); 
+
+pauseButton.addEventListener("click", function() {
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+})
+
+</script>
   </section>
   <section class='about'>
     <h1 class='title'>About</h1>
