@@ -81,19 +81,19 @@ a.toggle:hover .bar {
   background: #000030;
 }
 
-.contain h1 {
-  margin: 0;
-  font-size: 64px;
-  -webkit-transform: translate(0, 40vh);
-      -ms-transform: translate(0, 40vh);
-          transform: translate(0, 40vh);
-  text-align: center;
-  color: rgba(255, 255, 255, 0.85);
-  -webkit-transition: -webkit-transform 500ms;
-          transition: transform 500ms;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
+/*.contain h1 {*/
+/*  margin: 0;*/
+/*  font-size: 64px;*/
+/*  -webkit-transform: translate(0, 40vh);*/
+/*      -ms-transform: translate(0, 40vh);*/
+/*          transform: translate(0, 40vh);*/
+/*  text-align: center;*/
+/*  color: rgba(255, 255, 255, 0.85);*/
+/*  -webkit-transition: -webkit-transform 500ms;*/
+/*          transition: transform 500ms;*/
+/*  -webkit-transform-style: preserve-3d;*/
+/*          transform-style: preserve-3d;*/
+/*}*/
 
 .contain.active {
   -webkit-transform: scale(0.65) translateY(-18%);
