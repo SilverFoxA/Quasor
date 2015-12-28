@@ -1,6 +1,6 @@
 <?php
 $name       = @trim(stripslashes($_POST['name'])); 
-$from       = @trim(stripslashes($_POST['email'])); 
+$from       = 'mayank@quasor.in'
 $subject    = @trim(stripslashes($_POST['subject'])); 
 $message    = @trim(stripslashes($_POST['message'])); 
 $to   		= 'abhijit2294@gmail.com';
@@ -13,6 +13,6 @@ $headers[] = "Reply-To: <{$from}>";
 $headers[] = "Subject: {$subject}";
 $headers[] = "X-Mailer: PHP/".phpversion();
 
-mail($to, $subject, $message, $headers);
+mail($to, "Hello world!!", $message, $headers);
 
 die;

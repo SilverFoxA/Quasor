@@ -562,6 +562,9 @@ Blog Default
 .post-content {
   padding: 20px 0; }
 
+#home-slider .btn-common {
+  margin-top: 20px;
+}
 .timeline-date .btn-common {
   font-size: 18px;
   color: #4a4a4a;
@@ -801,6 +804,12 @@ Blog with right sidebar
     .laptop{
     position: relative;
     }
+    
+    .slider-text .btn-submit{
+        width: 30%;
+    }
+}
+.slider-text .btn-submit{
 }
 @media all and (max-width: 767px) {
     .navbar-collapse {
@@ -1917,4 +1926,69 @@ a.read-more:hover {
     position:absolute;right:0; z-index:100;margin-right:20px;
 }
 
+
+
+#home-slider .main-slider {
+  position: relative;
+  height: 450px;
+}
+
+#home-slider .slide-text{
+  position: absolute;
+  top: 30%;
+    font-size: 15px;
+    margin-left: 50px;
+    text-align: left;
+  left: 0;
+  width: 450px;
+}
+
+.animate-in .slide-text {
+  -webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
+.tour-button {
+  background-image: url(../images/home/tour-icon2.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-position: 151px 4px;
+}
+
+/*
+  .btn-common {
+    font-size: 14px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px 25px;
+      outline: none;
+    background: none;
+    box-shadow: none;
+    color: #01707f;
+    border-color:#01707f;
+  }
+*/
+
+  #action .col-sm-5{
+    position: absolute;
+
+    top: 0;
+    height: 100%;
+    right: 0;
+  }
+
+
+.btn-common,
+  .btn-common:hover, 
+  .btn-common:focus{
+    outline: none;
+    background: none;
+    box-shadow: none;
+    color: #01707f;
+    border-color:#01707f;
+  }
 
