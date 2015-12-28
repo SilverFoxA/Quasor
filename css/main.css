@@ -1992,3 +1992,9 @@ a.read-more:hover {
     border-color:#01707f;
   }
 
+
+#menu_contact li{
+    margin-top: 20px;
+    display: inline;
+    padding: 10px;
+}
