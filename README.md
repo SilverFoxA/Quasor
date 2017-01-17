@@ -5,17 +5,12 @@
 #Who all are the team and what are their roles?
 #why people should select you?
 #what all are the contents to be shown?
-
-Q no.1,2,3-Get it from the previois website
+q.no. 1 - Quasor Rocketry LLP is an education, training and technology based company which has a sole purpose of integrating real world ideas with the latest in technology. By developing an active interest towards space-science and technology, we aim to lay a strong foundation for the development of Aerospace industry in our country.
+Quasor Rocketry LLP is first of its kind in the country that aims to organise Model Rocketry across various parts of India. We are a constant facilitator in the scientific and technical education of students of all levels by providing them classroom education, seminars, workshops, other hands on resources through wide variety of hardware, software and web based learning.
+We extend our support and technical expertise to the young minds for the sake of developing science in the nation.
+Q no.2 - Quasor Rocketry is a unique startup that currently Organizes Model rocketry workshops at Various levels of Schools and Colleges in India.
 Q no.4 
-Why us Because
-Quasor Rocketry is an unique startup with the sole purpose of
-Encouraging science and technology in the youngest of minds, to do that 
-As we know the aerospace industry in our country is leading but the growth is not
-Exponential, so to make that happen students at the basic level has to be exposed 
-To the world of space science.
-And as the moto speaks itself "Think> Innovate> Endeavourr", students learn, think, innovate and achieve their goals
-In the rocket modelling workshop organised by us.
+Why us Becausem [Quasor Rocketry LLP's sole purpose is to Ignite the young minds of India and introduce them to the new world of Aerospace industry. Quasor Rocketry introduces the fascinating world of Space science to the young minds of the nation and thereby create an awareness about the Space Industry emerging both in India and Abroad]
 
 Qno.5
 #Content of about us- what you would like to be put up here? Quasor Rocketry LLP is an education, training and technology based company which has a sole purpose of integrating real world ideas with the latest in technology. By developing an active interest towards space-science and technology, we aim to lay a strong foundation for the development of Aerospace industry in our country.
